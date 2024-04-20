@@ -31,6 +31,10 @@ void main() {
   print(h1);
 
   //If you never intend to change a variable, use final or const.
+
+  // ** Although a final object cannot be modified,
+  // its fields can be changed. In comparison, a const
+  // object and its fields cannot be changed: they're immutable. **
   final hg = 45;
   final hg1 = [1,2,3,4,5];
 
